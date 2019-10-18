@@ -1,6 +1,6 @@
 body {
   background-color: #23555d;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 h1,
 h2,
@@ -10,14 +10,12 @@ p {
 }
 h1 {
   font-size: 5rem;
+  margin-top: 1.5rem;
 }
 h2,
 p {
   font-size: 2.5rem;
   margin-top: 2rem;
-}
-p {
-  margin-top: 0;
 }
 #session {
   width: 60vw;
@@ -28,6 +26,7 @@ p {
 #session p {
   font-size: 4rem;
   padding: 10px auto;
+  margin-bottom: 3rem;
 }
 #sessionLength {
   display: inline-block;
@@ -51,9 +50,6 @@ p {
 }
 
 @media (min-width: 1200px) {
-  #session p {
-    font-size: 6rem;
-  }
   #session {
     width: 30vw;
   }
